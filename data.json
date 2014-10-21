@@ -1,0 +1,13 @@
+{
+    "arr": ["some", "data", "in", "an", "array"],
+    "obj": {
+        "a": "A",
+        "b": "plain",
+        "c": "old",
+        "d": "javascript",
+        "e": "object"
+    },
+    "str": "This is how a string looks like. You bet!",
+    "num": "3.14159265",
+    "bool": true
+}

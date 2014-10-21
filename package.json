@@ -1,0 +1,55 @@
+{
+    "name": "testAngular",
+    "version": "0.0.1",
+    "description": "An application to demo writing test basic test cases in Angular",
+    "main": "controller.js",
+    "scripts": {
+        "prestart": "npm install",
+        "start": "http-server -p 8000",
+        "pretest": "npm install",
+        "test": "karma start test/karma.conf.js",
+        "test-single-run": "karma start test/karma.conf.js  --single-run",
+        "preupdate-webdriver": "npm install",
+        "update-webdriver": "webdriver-manager update",
+        "preprotractor": "npm run update-webdriver",
+        "protractor": "protractor test/protractor-conf.js"
+    },
+    "keywords": [
+        "Angular",
+        "Mocha",
+        "Chai",
+        "Sinon",
+        "Angular-Mock",
+        "Test",
+        "Karma"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ShivrajRath/AngularTesting.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ShivrajRath/AngularTesting/issues"
+    },
+    "author": "@ShivrajRath",
+    "license": "ISC",
+    "devDependencies": {
+        "karma": "^0.12.24",
+        "mocha": "^1.21.4",
+        "karma-mocha": "^0.1.9",
+        "karma-chrome-launcher": "^0.1.5",
+        "karma-firefox-launcher": "^0.1.3",
+        "karma-safari-launcher": "^0.1.1",
+        "karma-opera-launcher": "^0.1.0",
+        "karma-ie-launcher": "^0.1.5",
+        "karma-phantomjs-launcher": "^0.1.4",
+        "chai": "^1.9.2",
+        "karma-chai": "^0.1.0",
+        "karma-sinon-chai": "^0.2.0",
+        "sinon": "^1.10.3",
+        "sinon-chai": "^2.6.0",
+        "http-server": "^0.7.2",
+        "protractor": "^1.3.1",
+        "chai-as-promised": "^4.1.1",
+        "karma-chai-plugins": "^0.2.3"
+    }
+}
